@@ -15,8 +15,8 @@ export default function PaymentPage() {
   const [utr, setUtr] = useState("");
   const [checking, setChecking] = useState(false);
 
-  const amount = 5427;
-  const oldAmount = 6427;
+  const amount = 690;
+  const oldAmount = 790;
   const orderId = "ORD12345";
   const upiId = "8097246401@dhani";
 
