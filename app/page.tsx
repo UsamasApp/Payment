@@ -15,10 +15,10 @@ export default function PaymentPage() {
   const [utr, setUtr] = useState("");
   const [checking, setChecking] = useState(false);
 
-  const amount = 1000;
-  const oldAmount =1500;
+  const amount = 999;
+  const oldAmount =1000;
   const orderId = "ORD12345";
-  const upiId = "usam@hani";
+  const upiId = "usamaakram000@hdfc";
 
   useEffect(() => {
     const timer = setInterval(() => {
